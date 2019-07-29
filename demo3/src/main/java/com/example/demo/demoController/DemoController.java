@@ -37,13 +37,11 @@ public class DemoController {
                 return map;
             }
             String[] digits=digitstr.split(",");
-            StringBuilder digitsstr=new StringBuilder();
+            StringBuilder digitsstr=new StringBuilder(); //目标字符串
             for(String d: digits){
                 int i=Integer.parseInt(d);
-                if(i>=0&&i<=9){ //过滤不属于 0-9的参数
+                if(i>=2&&i<=9){ //过滤不绑定字母的数值 // 含有 0，1，以及10-99
                     digitsstr.append(d);
-                }else{
-                    return map;//10-99都输出null
                 }
             }
             ls=demoService.doexcute(digitsstr.toString());
