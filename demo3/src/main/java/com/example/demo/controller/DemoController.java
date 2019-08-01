@@ -1,5 +1,5 @@
 package com.example.demo.controller;
-import com.example.demo.EXUtils.ResponseObject;
+import com.example.demo.ExtraUtils.ResponseObject;
 import com.example.demo.service.DemoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

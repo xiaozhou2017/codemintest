@@ -1,4 +1,4 @@
-package com.example.demo.EXUtils;
+package com.example.demo.ExtraUtils;
 
 /**
  * key array mapping letters by  arr index
