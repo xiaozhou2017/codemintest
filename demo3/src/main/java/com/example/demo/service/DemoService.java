@@ -22,9 +22,6 @@ public class DemoService  extends Comcalculate{
             }
         }
         ArrayList<String> res = new ArrayList<String>();
-        if (digits == null)
-            return res;
-
         StringBuilder current = new StringBuilder();
         int index = 0;
         dohelper(index, targetdigitsstr, res, current, KeysArr.keyboard);
